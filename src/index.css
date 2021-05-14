@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+}
+body{
+    background: rgb(133,127,223);
+    background: linear-gradient(90deg, rgba(133,127,223,1) 0%, rgba(9,75,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+body::-webkit-scrollbar {
+    background-color: #5dd1ff ;
+    width: 8px;
+    height: 8px;
+    
+  }
+body::-webkit-scrollbar-thumb {
+    background-color: #f06868 ;
+    border-radius: 7px;
+}
+p{
+    font-size: 20px;
+    color: #eee;
+    
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 20vh !important;
+    
+}
+h2{
+    margin-top: 30vh !important;
+    transition: color 0.2s;
+    
+    
+}
+h2:hover{
+    color: #f06868 !important;
+}
+.img_ultm{
+    padding-bottom: 5vh !important;
+}
